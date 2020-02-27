@@ -10,3 +10,33 @@ body {
 th a:link, th a:visited, th a:hover, th a:active {
     color: #ffffff;
 }
+.jumbotron {
+    padding-bottom: .8rem;
+    text-align: center;
+    min-width: 450px;
+}
+.lead {
+    margin-top: 1rem;
+}
+.select {
+    margin-top: 1rem;
+}
+.phonetitle {
+    display:none;
+}
+.formula {
+    margin-left: 10px;
+}
+h3 {
+    text-align: center;
+}
+
+
+@media(max-width:576px) {
+    .jumbotron {
+        display: none;
+    }
+    .phonetitle {
+        display: inline;
+    }
+}
